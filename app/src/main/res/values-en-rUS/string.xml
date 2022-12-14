@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Inventory</string>
 
@@ -17,9 +18,9 @@
     <string name="item_product_data">%s \n(x%d)</string>
     <string name="item_product_score">%.2f</string>
 
-    <string name="main_msg_welcome">Bienvenido…</string>
-    <string name="main_menu_title_exit">Salir</string>
-    <string name="main_message_go_history">Ir al historial…</string>
-    <string name="main_message_go_exit">Salir…</string>
-    <string name="main_message_action_not_found">Acción no encontrada</string>
+    <string name="main_msg_welcome">Welcome…</string>
+    <string name="main_menu_title_exit">Exit</string>
+    <string name="main_message_go_history">Go to history…</string>
+    <string name="main_message_go_exit">Exit…</string>
+    <string name="main_message_action_not_found">Action not found</string>
 </resources>

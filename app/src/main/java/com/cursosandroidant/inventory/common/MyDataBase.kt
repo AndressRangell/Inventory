@@ -19,7 +19,7 @@ class MyDataBase {
 
     fun getProductsLiveData(): LiveData<MutableList<Product>> {
         if (products.size == 0) {
-            (0..Random.nextInt(1, names.size)).forEach {
+            (names.indices).forEach { //Random.nextInt(1, names.size)).forEach {
                 products.add(
                     Product(
                         id = it.toLong(),
